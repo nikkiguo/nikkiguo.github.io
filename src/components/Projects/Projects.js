@@ -41,7 +41,7 @@ function Projects() {
                     />
                     <NewsHeaderCard
                         float
-                        href='https://nikkiguo.github.io/'
+                        href='https://github.com/nikkiguo/nikkiguo.github.io'
                         thumbnail='/images/projects/personal-website.png'
                         title='Personal Portfolio'
                         className='Project-Card'
