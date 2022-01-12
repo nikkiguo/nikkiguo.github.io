@@ -1,0 +1,22 @@
+.Projects {
+    padding: 2.5rem;
+    min-height: max-content;
+}
+
+.Project-Row {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+    .Project-Row {
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      flex-direction: column;
+      width:100%;
+      overflow-x: auto;
+    }
+  }
