@@ -9,6 +9,12 @@ export default function About() {
           <div className="about-text">
             <p>I’m passionate about building systems that bridge the digital and physical worlds, whether it be in robotics, autonomous vehicles, or sensor software. With a background in computer science, robotics research, and high-performance software engineering, I enjoy blending technical precision with creative experimentation.</p>
             <p>Away from the keyboard, you'll find me exploring new art mediums, reading books and substack articles, or seeking balance through nature, running, and lifting. I’m a firm believer in the power of curiosity, so I’m almost always a beginner at something new :)</p>
+            <div className="contact-info">
+              <a href="mailto:ng.nikkiguo@gmail.com" className="contact-link">Email</a>
+              <a href="https://www.linkedin.com/in/nikkiguo" target="_blank" rel="noopener noreferrer" className="contact-link">LinkedIn</a>
+              <a href="https://github.com/nikkiguo" target="_blank" rel="noopener noreferrer" className="contact-link">GitHub</a>
+              <a href="https://curius.app/nikki-guo" target="_blank" rel="noopener noreferrer" className="contact-link">Curius</a>
+            </div>
             <div className="skills">
               <h3>Skills</h3>
               <div className="skill-tags">

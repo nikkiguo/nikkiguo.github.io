@@ -703,6 +703,41 @@ h3 {
     border-color: var(--accent-muted);
 }
 
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 0.5rem 0 var(--spacing-md) 0;
+}
+
+.contact-link {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    transition: color var(--transition);
+    font-size: 0.95rem;
+}
+
+.contact-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--accent);
+    transition: width var(--transition);
+}
+
+.contact-link:hover {
+    color: var(--accent-hover);
+}
+
+.contact-link:hover::after {
+    width: 100%;
+}
+
 @media (max-width: 768px) {
     .about-content {
         grid-template-columns: 1fr;
