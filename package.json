@@ -1,5 +1,6 @@
 {
   "name": "nikki-portfolio",
+  "homepage": "https://nikkiguo.github.io/",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint src --ext js,jsx"
+    "lint": "eslint src --ext js,jsx",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -16,6 +19,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",
+    "gh-pages": "^6.3.0",
     "vite": "^8.0.14"
   }
 }
